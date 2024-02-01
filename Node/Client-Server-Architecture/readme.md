@@ -22,10 +22,25 @@
      Rest heavily rely on the term `resource` that is real life entity. Everything that we do in `REST` is going to be wrt Real life entity.
    - Everytime with a RESTFUL API request has to send `type/methods` of the Request.
 
-     **HTTP Request METHODS**
+     **HTTP Request METHODS** (https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods)
+     `Difference are in terms of REST Convention`
 
-     - GET
-     - POST
-     - PUT
-     - PATCH
-     - DELETE
+     - GET ----> Retrive information about the resources
+     - POST ----> To Create side effects on a resource
+     - PUT ----> To make complete update to a resource
+     - PATCH ----> To make partial update to a resource
+     - DELETE ----> To Delete a Resource
+
+       `Main Difference`
+
+       **_1. GET_**
+
+       - In GET request, data is send in URL , that means it gets saved in our browser history. We can log it, cached it, etc
+
+### 3 Ways in which we can Send the Data:
+
+    1. Request Params  --> eg :-    /movies/blackPanther
+    2. Query Params    --> eg :-    /categories/electronics?company=samsung&order=desc&filter=price
+    3. Request Body    --> It is separate payload/body that is send apart from the request
+
+- POSTMAN -> Postman will help us to, without writing any frontend we can hit Request to a URL
