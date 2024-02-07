@@ -43,7 +43,7 @@
 
     1. Request Params  --> eg :-    /movies/blackPanther
     2. Query Params    --> eg :-    /categories/electronics?company=samsung&order=desc&filter=price
-    3. Request Body    --> It is separate payload/body that is send apart from the request
+    3. Request Body    --> It is separate payload/body that is send apart from the request.
 
 - POSTMAN -> Postman will help us to, without writing any frontend we can hit Request to a URL.
 
@@ -51,9 +51,9 @@ CRUD API - CREATE READ UPDATE DELETE
 API Based Developement is the the future.
 
 - Monolithics ---> Monolith is an architecture to build a project in which Every service that we have to give to the end user is written inside the same project.
-  ---> Problem with Monolithic application is that : the more complex the app become, the more complex it is maintain the application.
+  ---> Problem with Monolithic application is that : the more complex the app become, the more complex is to maintain the application.
   That's why there is a concept of `microservices` came into the pictures.
 
 ### Microservices :
 
-    - Microservices isolate every different service  all together. So there will be different process running   for an authetication, there will be different server/process running for email/messages.
+    - Microservices isolate every different service all together. So there will be different process running for an authetication, there will be different server/process running for email/messages.
