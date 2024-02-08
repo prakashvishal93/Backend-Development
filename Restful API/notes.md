@@ -38,3 +38,24 @@
                 -- URL -- /blogs/:id
                 -- Methods -- PUT/PATCH
                 -- body params - {title, or something}
+
+### HOT Reloading:
+
+    - When we make a change anything to our codebase, the server restarts automatically.For this restarting, we need a third party packages.
+    - We can use `nodemon`- It automatically restarts the node application when a file changes detected
+        - npx is used to as cli to run the node file :- > `npx nodemon index.js`
+            - We can also add a start script in package.json to run the node file : -> "start": "npx nodemon index.js"
+                To run it, we can use npm start
+
+### Middleware
+
+    In simple terms, Let say we are sending a request and there is an API, then we are going to receive a request.
+    Before we receive the request, we can put some layer of logic before we actually hit the API. These logic can do a lot of thing like whether
+    someone is sending correct data or not, whether someone is sending mallicious data.
+    In these layer we can do this before actually hitting our API. These layer are middleware.
+
+    Also, In order to configure the body-parser, we need the middleware
+
+### Setting up body-parser
+
+    -
